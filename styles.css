@@ -28,7 +28,7 @@ a{
 }
 #logo{
     width: auto;
-    height:auto;
+    line-height: 100%;
     margin-left: auto;
     margin-right: auto;
     display: block;
