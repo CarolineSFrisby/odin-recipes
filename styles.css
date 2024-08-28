@@ -17,6 +17,19 @@ h1,h2,h3,h4,h5,h6{
     box-shadow: 0 0 5px rgb(136, 219, 140);
 }
 
+@media only screen and (max-width: 600px) {
+    img 
+    { 
+        height: auto; 
+        width: auto; 
+    } 
+    .content{
+        width: 100%;
+    }
+    .item{
+        width: 100%;
+    }
+}
 
 .heading{
     font-size: 62px; 
