@@ -11,6 +11,7 @@ h1,h2,h3,h4,h5,h6{
 
 }
 .item img:hover{
+    display: flex;
     transform: scale(1.05);
     transition: all ease ;
     border-radius: 15px;
@@ -20,13 +21,16 @@ h1,h2,h3,h4,h5,h6{
 @media only screen and (max-width: 600px) {
     img 
     { 
-        height: auto; 
-        width: auto; 
+        display: flex;
+        height: 100%; 
+        width: 100%; 
     } 
     .content{
+        display: flex;
         width: 100%;
     }
     .item{
+        display: flex;
         width: 100%;
     }
 }
@@ -64,7 +68,7 @@ h3{
 }
 
 div img{
-    
+    display: flex;
     width:300px;
     height:400px;
 }
@@ -83,7 +87,7 @@ div img{
     display: flex;
     flex-direction: column;
     gap:20px;
-    padding-left: 30px;
+    /* padding-left: 30px; */
     width:420px;
     height: 1507px;
 }
@@ -109,7 +113,7 @@ ul{
 }
 
 .steps-container{   
-    margin-top:20px;
+    /* margin-top:20px; */
     border-radius: 10px;
     border:1px solid rgb(71, 71, 71);
     height: 987px;
