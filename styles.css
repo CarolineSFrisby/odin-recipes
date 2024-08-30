@@ -108,6 +108,7 @@ h3{
 
 .left img{
     border-radius: 10px;
+    flex-wrap: auto;
 
 }
 
@@ -120,8 +121,9 @@ ul{
     border-radius: 10px;
     background-color: rgb(240, 236, 230);
     padding:20px;
-    flex
-    flex-grow: auto;
+    height: auto;
+    width: auto;
+    /* flex-grow: auto; */
     flex-wrap: auto;
 }
 
