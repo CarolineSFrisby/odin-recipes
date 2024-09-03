@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,h6{
     transform: scale(1.05);
     transition: all ease ;
     border-radius: 15px;
-    box-shadow: 0 0 5px rgb(136, 219, 140);
+    box-shadow: 0 0 10px rgb(239, 6, 6);
 }
 
 .heading{
@@ -47,7 +47,7 @@ a{
     transform: scale(1.05);
     transition: all ease ;
     border-radius: 15px;
-    box-shadow: 0 0 5px rgb(136, 219, 140);
+    box-shadow: 0 0 10px rgb(239, 6, 6);
 }
 
 
